@@ -49,5 +49,10 @@ namespace FarmSystem.Test1
             Console.WriteLine("Cow is running");
         }
 
+        public void Release()
+        {
+            Console.WriteLine("Cow has left the farm");
+        }
+
     }
 }

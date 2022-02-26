@@ -67,7 +67,7 @@ Sheep has entered the farm
  *****************************************************************************************************************/
         private static void Excercise2()
         {
-            //TODO : Apply OOP concepts and modify the code below to get the required output 
+
             Console.WriteLine("Exercise 2 : Press any key to scare the animals in the farm");
             Console.ReadKey();
             var farm = new EmydexFarmSystem();
@@ -112,7 +112,7 @@ Cow was milked!
 ************************************************************************************************************/
         private static void Excercise3()
         {
-            //TODO : Apply OOP concepts and modify the code below to get the required output 
+
             Console.WriteLine("Exercise 3 : Press any key when it is time to milk animals");
             Console.ReadKey();
             var farm = new EmydexFarmSystem();
@@ -161,7 +161,7 @@ Emydex Farm is now empty
 ********************************************************************************************************************/
         private static void Excercise4()
         {
-            //TODO : Apply OOP concepts and modify the code below to get the required output 
+
             Console.WriteLine("Exercise 4: Press any key to free all animals");
             Console.ReadKey();
             var farm = new EmydexFarmSystem();

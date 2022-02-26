@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FarmSystem.Test1
 {
-    abstract class Animal
+    public abstract class Animal
     {
         protected abstract string AnimalEnteredFarm(string animal);
     }
