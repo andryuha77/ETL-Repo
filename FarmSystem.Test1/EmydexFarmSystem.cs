@@ -1,15 +1,25 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace FarmSystem.Test1
 {
     public class EmydexFarmSystem
     {
+
+        readonly List<object> animalList;
+
+        public EmydexFarmSystem()
+        {
+            this.animalList = new List<object>();
+        }
         //TEST 1
         public void Enter(object animal)
         {
             //TODO Modify the code so that we can display the type of animal (cow, sheep etc) 
             //Hold all the animals so it is available for future activities
-            Console.WriteLine("Animal has entered the Emydex farm");
+
+            this.animalList.Add(animal);
+            Console.WriteLine("{0} has entered the Emydex farm", animal.GetType().Name);
         }
      
         //TEST 2
